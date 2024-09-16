@@ -3,11 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="./style.css">
 	<link rel="shortcut icon" href="./assets/favicon/Mem.ico" type="image/x-icon">
 	<title>cssMemeSlider</title>
 </head>
 <body>
+	<!-- <header class="header">
+		<h1 class="head">
+			CSS MEME SLIDER
+		</h1>
+	</header> -->
 	<div class="container">
 		<div class="slider__wrapper">
 			<input type="radio" name="slide" id="one" checked>
@@ -17,26 +25,26 @@
 			<input type="radio" name="slide" id="five">
 
 			<div class="slider__container">
-				<div class="slide started">
-					<img src="./assets/images/mem_1.jpg" alt="mem" class="mem">
+				<div class="slide slide1 started">
+					<img src="./assets/images/Mem1.jpg" alt="mem" class="mem1">
 				</div>
 				<div class="slide">
-					<img src="./assets/images/mem_2.jpg" alt="mem" class="mem">
+					<img src="./assets/images/Mem2.jpg" alt="mem" class="mem2">
 				</div>
 				<div class="slide">
-					<img src="./assets/images/mem_3.jpg" alt="mem" class="mem">
+					<img src="./assets/images/Mem3.png" alt="mem" class="mem3">
 				</div>
 				<div class="slide">
-					<img src="./assets/images/mem_4.jpg" alt="mem" class="mem">
+					<img src="./assets/images/Mem4.png" alt="mem" class="mem4">
 				</div>
 				<div class="slide">
-					<img src="./assets/images/mem_5.jpg" alt="mem" class="mem">
+					<img src="./assets/images/Mem5.jpg" alt="mem" class="mem5">
 				</div>
 			</div>
 			<div class="text__wrapper">
 				<div class="text__container">
 					<div class="text__slider">
-						<div class="text">
+						<div class="text text1 started">
 							How much garbage! We'll fix it now...
 						</div>
 						<div class="text">
@@ -53,24 +61,25 @@
 						</div>
 					</div>
 				</div>
+				<div class="nav">
+					<label for="one" class="nav__items">
+						<div class="nav__items-item nav__item-one" ></div>
+					</label>
+					<label for="two" class="nav__items">
+						<div class="nav__items-item nav__item-two" ></div>
+					</label>
+					<label for="three" class="nav__items">
+						<div class="nav__items-item nav__item-three" ></div>
+					</label>
+					<label for="four" class="nav__items">
+						<div class="nav__items-item nav__item-four" ></div>
+					</label>
+					<label for="five" class="nav__items">
+						<div class="nav__items-item nav__item-five" ></div>
+					</label>
+				</div>
 			</div>
-			<div class="nav">
-				<label for="one" class="nav__item">
-					<div class="nav__item nav__item-one" ></div>
-				</label>
-				<label for="one" class="nav__item">
-					<div class="nav__item nav__item-two" ></div>
-				</label>
-				<label for="one" class="nav__item">
-					<div class="nav__item nav__item-three" ></div>
-				</label>
-				<label for="one" class="nav__item">
-					<div class="nav__item nav__item-four" ></div>
-				</label>
-				<label for="one" class="nav__item">
-					<div class="nav__item nav__item-five" ></div>
-				</label>
-			</div>
+
 		</div>
 	</div>
 </body>
